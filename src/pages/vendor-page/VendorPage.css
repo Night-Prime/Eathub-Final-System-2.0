@@ -79,7 +79,7 @@ nav img  {
 
 
 .vendor-hero p {
-    font-size: 16px;
+    font-size: 18px;
     color:white;
     text-align:justify;
 }
@@ -195,4 +195,52 @@ nav img  {
     font-weight: 500;
     display: inline-block;
     line-height: 1.5em;
+}
+@media screen and (max-width: 600px) {
+    nav img{
+        margin-left: 1rem;
+    }
+    .vendor-hero {
+        display: flex;
+        flex-direction:column;
+    }
+    .vendor-hero aside,h1{
+        width: 100%;
+    }
+
+    .card-section {
+        display: flex;
+        flex-direction:column;
+        align-items: center;
+    }
+    .card {
+        width: 80%;
+    }
+    .vendor-box-1 {
+        flex-direction:column;
+        align-items: center;
+        width: 100%;
+        padding: 0;
+        margin: 0;
+    }
+    .vendor-box-1 img {
+        width: 70%;
+    }
+    .vendor-box-1 .vendor-text-box {
+        width: 70%;
+    }
+    .vendor-box-2 {
+        flex-direction:column;
+        align-items: center;
+        width: 100%;
+    }
+    .vendor-box-2 img {
+        width: 70%;
+    }
+    .vendor-box-2 .vendor-text-box-2{
+        width: 70%;
+    }
+    footer {
+        padding: 5%;
+    }
 }

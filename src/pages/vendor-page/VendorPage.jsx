@@ -96,7 +96,6 @@ function VendorPage() {
             <footer>
                 <img src={footer} alt={footer} />
                 <div className="link">
-                    <Link to="/" className="links">Setup Restaurant</Link>
                     <Link to="/" className="links">Download Application</Link>
                     <Link to="/" className="links">Premium Offers</Link>
                     <Link to="/" className="links">About Eathub</Link>
