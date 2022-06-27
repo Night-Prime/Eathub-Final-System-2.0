@@ -43,7 +43,7 @@ const validate = values =>{
     }
     if(!values.email){
         errors.email = 'Required'
-    } else if(/^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/.test(values.email)) {
+    } else if(/^\w+([-]?\w+)*@\w+([-]?\w+)*(\.\w{2,3})+$/.test(values.email)) {
         errors.email = 'Invalid email address'
     }
 
@@ -82,6 +82,7 @@ const validate = values =>{
 function FormsPage() {
     const formik = useFormik({
         initialValues,
+        // validate,
         validationSchema,
         onSubmit
     });

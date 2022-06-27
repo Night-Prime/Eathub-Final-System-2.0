@@ -13,7 +13,7 @@ import footer from '../../images/Footer-test.png';
 function HomePage() {
   return (
     <main>
-        <section class ="hero-section">
+        <section className ="hero-section">
             {/* Navbar section */}
             <nav>
                 <header>
@@ -56,7 +56,7 @@ function HomePage() {
                 </div>
             </div>
         </section>
-        <section classname="box-1">
+        <section className="box-1">
             {/* Box Section-1 */}
             <img src={brunch} alt={brunch} />
             <div className="text-box">

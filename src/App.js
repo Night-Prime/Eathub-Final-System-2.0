@@ -22,9 +22,6 @@ function App() {
           <Route path='/vendorforms' 
           element={<FormsPage />}/>
         </Routes>
-        {/* <Route exact path="**">
-            {<Redirect to="/" />}
-        </Route> */}
       </div>
     </Router>
   );

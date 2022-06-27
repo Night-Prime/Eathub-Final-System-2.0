@@ -42,11 +42,11 @@
     overflow-y: scroll;
 }
 
-header {
+#content-2 header {
     font-size: 45px;
     color: red;
     font-weight: 600;
-    margin: 1rem;
+    /* margin: 1rem; */
 }
 
 form {

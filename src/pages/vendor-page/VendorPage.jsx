@@ -18,9 +18,11 @@ function VendorPage() {
             <nav>
                 <header class="nav-header">
                     <img src = {eathub} alt = {eathub} />
-                    <button className="arrow-btn">
+                    <Link to='/vendorforms'>
+                        <button className="arrow-btn">
                         <BsFillArrowRightCircleFill />
                     </button>
+                    </Link>
                 </header>
             </nav>
         {/* Hero Section */}
