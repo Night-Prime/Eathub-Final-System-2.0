@@ -56,7 +56,7 @@ function HomePage() {
                 </div>
             </div>
         </section>
-        <section class="box-1">
+        <section classname="box-1">
             {/* Box Section-1 */}
             <img src={brunch} alt={brunch} />
             <div className="text-box">
