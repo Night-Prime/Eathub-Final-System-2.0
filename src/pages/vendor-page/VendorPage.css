@@ -243,4 +243,7 @@ nav img  {
     footer {
         padding: 5%;
     }
+    .form-box .form-header {
+        margin-left: 0rem;
+    }
 }

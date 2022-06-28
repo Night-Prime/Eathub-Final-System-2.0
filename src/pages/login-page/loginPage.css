@@ -65,3 +65,23 @@
     width: 100%;
 }
 
+@media screen and (max-width: 768px) {
+    .vendor-box {
+        border:none;
+    }
+    .vendor-content {
+        width: 100%;
+    }
+    .vendor-content .content-1 {
+        background: transparent;
+    }
+    .content-1 .vendor-header {
+        width: 100%;
+        font-size: 2.5rem;
+        display: block;
+    }
+    .content-1 .vendor-form {
+        width: 100%;
+    }
+}
+
