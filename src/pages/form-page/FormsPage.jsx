@@ -98,14 +98,15 @@ function FormsPage() {
                 </aside>
                 <aside id="content-2">
                     <div className="form-box">
-                        <header>
+                        <header className="form-header">
                            Vendor Registeration
                         </header>
                         <form onSubmit={formik.handleSubmit}>
 
                             <div className="form-control">
                             <label htmlFor="fname">First Name</label>
-                            <input type="text" 
+                            <input type="text"
+                            autoComplete='on'
                              id="fname" name="fname" 
                              onBlur={formik.handleBlur}
                              onChange={formik.handleChange} 
@@ -120,6 +121,7 @@ function FormsPage() {
                             <div className="form-control">
                             <label htmlFor="lname">Last Name</label>
                             <input type="text"
+                            autoCapitalize='on'
                              id="lname"
                              name="lname" 
                              onBlur={formik.handleBlur} 

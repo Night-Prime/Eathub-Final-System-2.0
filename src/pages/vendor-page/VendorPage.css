@@ -230,7 +230,7 @@ nav img  {
         width: 70%;
     }
     .vendor-box-2 {
-        flex-direction:column;
+        flex-direction:column-reverse;
         align-items: center;
         width: 100%;
     }

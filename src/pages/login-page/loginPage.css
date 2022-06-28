@@ -1,0 +1,67 @@
+.vendorLogin {
+    background-image:url(../../images/Eathub\ Page.png);
+    width:100vw;
+    height: 100vh;
+    overflow:hidden;
+    display: flex;
+    flex-direction:column;
+    align-items:center;
+}
+
+.login-bar {
+    margin-top: 1rem;
+    margin-left: 2rem;
+    height: 5%;
+}
+.vendor-box {
+    height: 80%;
+    width: 80%;
+    border: 1px solid white;
+    display: flex;
+    margin-top: 3rem;
+
+}
+
+.vendor-content {
+    display: flex;
+    flex-direction: row;
+    align-items:center;
+    justify-content: center;
+}
+
+.vendor-content .content-1 {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items:center;
+    background-color: var(--orange-3);
+    padding-right: 2rem;
+}
+
+.vendor-header {
+    font-size: 3rem;
+    color: white;
+    font-weight: bold;
+}
+
+.header {
+    color: red;
+}
+
+.vendor-content .vendor-form {
+    margin-bottom: 8rem;
+}
+
+.vendor-content .content-2 {
+    width: 100%;
+    height: 100%;
+}
+
+.content-2 img{
+    object-fit:cover;
+    height: 100%;
+    width: 100%;
+}
+
