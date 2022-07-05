@@ -14,24 +14,15 @@ function App() {
         <Routes>
           <Route exact path="/"
           element={<HomePage />} />
-        </Routes>
-        <Routes>
           <Route path="/vendorpage"
           element = {<VendorPage />}
           />
-        </Routes>
-        <Routes>
           <Route path='/vendorforms' 
           element={<FormsPage />}/>
-        </Routes>
-        <Routes>
           <Route path='/vendorlogin' 
             element ={<LoginPage />}/>
+             <Route path ='*' element = {<ErrorPage />} />
         </Routes>
-        {/* <Routes>
-          <Route path ='*'
-          element = {<LoginPage />}/>
-        </Routes> */}
       </div>
     </Router>
   );
