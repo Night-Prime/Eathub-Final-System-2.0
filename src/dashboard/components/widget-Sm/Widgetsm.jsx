@@ -9,7 +9,7 @@ export default function Widgetsm() {
       <span className="widgetSmTitle">Top Meals</span>
       <ul className="widgetSmList">
       <li className="widgetSmListItem">
-        <img src={Meals} alt={Meals} className="widgetSmImg" />
+        {/* <img src={Meals} alt={Meals} className="widgetSmImg" /> */}
         <div className="widgetSmFood">
           <span className="widgetFoodname">Jollof Rice</span>
         </div>
@@ -19,7 +19,7 @@ export default function Widgetsm() {
         </button>
       </li>
       <li className="widgetSmListItem">
-        <img src={Meals} alt={Meals} className="widgetSmImg" />
+        {/* <img src={Meals} alt={Meals} className="widgetSmImg" /> */}
         <div className="widgetSmFood">
           <span className="widgetFoodname">Vegetable Stew </span>
         </div>
@@ -29,7 +29,7 @@ export default function Widgetsm() {
         </button>
       </li>
       <li className="widgetSmListItem">
-        <img src={Meals} alt={Meals} className="widgetSmImg" />
+        {/* <img src={Meals} alt={Meals} className="widgetSmImg" /> */}
         <div className="widgetSmFood">
           <span className="widgetFoodname">Jollof Rice</span>
         </div>
@@ -39,7 +39,7 @@ export default function Widgetsm() {
         </button>
       </li>
       <li className="widgetSmListItem">
-        <img src={Meals} alt={Meals} className="widgetSmImg" />
+        {/* <img src={Meals} alt={Meals} className="widgetSmImg" /> */}
         <div className="widgetSmFood">
           <span className="widgetFoodname">Jollof Rice</span>
         </div>

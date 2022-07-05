@@ -20,7 +20,7 @@ export default function Widgetlg() {
         </tr>
         <tr className="widgetLgTr">
           <td className="widgetLgUser">
-            <img src={icon} alt={icon} className="widgetLgImg" />
+            {/* <img src={icon} alt={icon} className="widgetLgImg" /> */}
             <span className="widgetLgName">Abati Daniel</span>
           </td>
           <td className="widgetLgDate">3 Mar 2022</td>
@@ -31,7 +31,7 @@ export default function Widgetlg() {
         </tr>
         <tr className="widgetLgTr">
           <td className="widgetLgUser">
-            <img src={icon} alt={icon} className="widgetLgImg" />
+            {/* <img src={icon} alt={icon} className="widgetLgImg" /> */}
             <span className="widgetLgName">Abati Daniel</span>
           </td>
           <td className="widgetLgDate">3 Mar 2022</td>
@@ -42,7 +42,7 @@ export default function Widgetlg() {
         </tr>
         <tr className="widgetLgTr">
           <td className="widgetLgUser">
-            <img src={icon} alt={icon} className="widgetLgImg" />
+            {/* <img src={icon} alt={icon} className="widgetLgImg" /> */}
             <span className="widgetLgName">Abati Daniel</span>
           </td>
           <td className="widgetLgDate">3 Mar 2022</td>
@@ -53,7 +53,7 @@ export default function Widgetlg() {
         </tr>
         <tr className="widgetLgTr">
           <td className="widgetLgUser">
-            <img src={icon} alt={icon} className="widgetLgImg" />
+            {/* <img src={icon} alt={icon} className="widgetLgImg" /> */}
             <span className="widgetLgName">Abati Daniel</span>
           </td>
           <td className="widgetLgDate">3 Mar 2022</td>
@@ -64,7 +64,7 @@ export default function Widgetlg() {
         </tr>
         <tr className="widgetLgTr">
           <td className="widgetLgUser">
-            <img src={icon} alt={icon} className="widgetLgImg" />
+            {/* <img src={icon} alt={icon} className="widgetLgImg" /> */}
             <span className="widgetLgName">Abati Daniel</span>
           </td>
           <td className="widgetLgDate">3 Mar 2022</td>
