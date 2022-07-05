@@ -1,0 +1,14 @@
+.home {
+    flex: 4;
+    font: 5rem;
+    margin-top: 5px;
+}
+.homeHeading {
+    color:rgb(250, 157, 95);
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+
+.homeWidgets {
+    display: flex;
+}

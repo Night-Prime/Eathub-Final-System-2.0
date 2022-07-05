@@ -1,0 +1,14 @@
+.transaction {
+    flex: 4;
+    font: 5rem;
+}
+.transactionHeading {
+    color:rgb(250, 157, 95);
+    margin-bottom: 16px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.transactionWidgets {
+    display: flex;
+}

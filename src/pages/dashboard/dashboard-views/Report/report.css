@@ -1,0 +1,40 @@
+.report {
+    flex: 4;
+    margin-bottom: 10px;
+}
+.reportTitleContainer {
+    margin-top: 5px;
+}
+
+.reportHead {
+    color:rgb(250, 157, 95);
+}
+.reportTitleHead {
+    margin-bottom: 10px;
+    margin-top: 16px;
+    font-weight: 600;
+
+}
+.txt{
+    color:rgb(250, 157, 95);
+    font-weight: 400;
+}
+.reportTextArea {
+    margin-top: 10px;
+}
+.reportBodyForm {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+input[type=submit] {
+    width: 5rem;
+    background-color:rgb(250, 157, 95);
+    color: white;
+    padding: 10px 16px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
