@@ -21,3 +21,41 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+
+                <Routes> 
+                    <Route path ='/dashboard-sales' 
+                        element={<Sales />} />  
+                </Routes>
+                <Routes> 
+                    <Route path ='/dashboard-transaction' 
+                        element={<Transaction />} />  
+                </Routes>
+                <Routes>
+                    <Route path ='/dashboard-users' 
+                        element={<UserList />} />
+                </Routes>
+                <Routes>
+                    <Route path ='/dashboard-profile' 
+                        element={<User />} />
+                </Routes>
+                <Routes>
+                    <Route path ='/dashboard-product' 
+                        element={<Productlist />} />
+                </Routes>
+                <Routes>
+                    <Route path ='/dashboard-product/:productId' 
+                        element={<Product />} />
+                </Routes>
+                <Routes>
+                    <Route path ='/dashboard-product/meal/new' 
+                        element={<NewProduct />} />
+                </Routes>
+                <Routes>
+                    <Route path ='/dashboard-feedback' 
+                        element={<Feedback />} />
+                </Routes>
+                <Routes>
+                    <Route path ='/dashboard-report' 
+                        element={<Report />} />
+                </Routes>

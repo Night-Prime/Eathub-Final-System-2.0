@@ -1,6 +1,6 @@
 import React from 'react';
 import "./widgetLg.css";
-import icon from '../../img/icon-1.png';
+// import icon from '../../img/icon-1.png';
 
 export default function Widgetlg() {
 

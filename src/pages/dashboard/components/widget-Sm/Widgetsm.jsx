@@ -1,6 +1,6 @@
 import React from 'react';
 import "./widgetSm.css";
-import Meals from "../../img/Meals.png";
+// import Meals from "../../img/Meals.png";
 import {Visibility} from '@material-ui/icons';
 
 export default function Widgetsm() {
