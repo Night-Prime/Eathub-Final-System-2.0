@@ -10,10 +10,9 @@
     padding: 1.4rem;
     color: black;
 }
-
-Link {
+.link {
     text-decoration: none;
-    color: white;
+    color: black;
 }
 
 .sidebarMenu {

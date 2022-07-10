@@ -1,12 +1,13 @@
 import React from 'react';
 import './App.css';
-import { BrowserRouter as Router, Routes, Route} from 'react-router-dom';
+import { BrowserRouter as  Router, Routes, Route, Outlet} from 'react-router-dom';
 import HomePage from './pages/home-page/HomePage';
 import VendorPage from './pages/vendor-page/VendorPage';
 import FormsPage from './pages/form-page/FormsPage';
 import LoginPage from './pages/login-page/loginPage';
 import ErrorPage from './pages/error/ErrorPage';
-import Views from './pages/dashboard/views/Views';
+import Dashboard from './pages/dashboard/Dashboard';
+
 
 
 function App() {
@@ -22,12 +23,12 @@ function App() {
             element={<FormsPage />}/>
           <Route path='/vendorlogin' 
             element ={<LoginPage />}/>
-          <Route path='/dashboard' 
-            element={<Views />}/>
-
+            <Route path='/dashboard' 
+              element={<Dashboard />}/>
           <Route path ='*' element = {<ErrorPage />} />
-          </Routes>
+        </Routes>
       </div>
+      <Outlet />
     </Router>
   );
 }
